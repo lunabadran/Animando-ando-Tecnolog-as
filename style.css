@@ -1,0 +1,59 @@
+div{
+  background-color:white;
+  width: 280px;
+  height: 290px;
+  border-radius:100%;
+  position:relative;
+}
+.amarillito{
+  font-family: Helvetica;
+  background-color:#f22253;
+  top:200px;
+  left:80px;
+  animation-name: felicidad;
+  animation-duration: 2s;
+  animation-iteration-count:infinite;
+}
+@keyframes felicidad{
+  from{
+    background-color:f22253;
+    top:130px;
+    width: 280px;
+  height: 290px;
+  }
+  to{
+    background-color:#ba0437;
+    width: 190px;
+  height: 380px;
+  }
+}
+
+div{
+  background-color:white;
+  width: 280px;
+  height: 290px;
+  border-radius:100%;
+  position:relative;
+}
+.fushiaa{
+  font-family: Monospace;
+  background-color:#ed5e05;
+  right:200px;
+  left:80px;
+  animation-name: alegria;
+  animation-duration: 2s;
+  animation-iteration-count:infinite;   
+}
+@keyframes alegria{
+  from{
+    background-color:#ed5e05;
+    left:130px;
+    width: 280px;
+  height: 290px;
+}
+  to{
+    background-color:#f7b125;
+    width: 380px;
+  height: 190px;
+      mix-blend-mode: screen;
+  }
